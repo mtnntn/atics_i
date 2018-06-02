@@ -14,7 +14,7 @@ There are two conda environment available:
   - `environments/dl_cpu_py35.py` : this environment contains Tensorflow without GPU support and therefore the code executed in this environment will not be enhanced by the GPU.
   This lack in performance allow a simpler configuration: you have only to import the environment and activate it.
 
-## Project: 1	- Deep Learning for truth discovery
+## Deep Learning for truth discovery
 
 - Implement using python/Keras the following approaches for truth inference using Neural Networks:
 
@@ -26,16 +26,14 @@ There are two conda environment available:
 
 - Compare them to the baseline methods available in python at: https://github.com/MengtingWan/KDEm
 
-### Marshall, Argueta, and	Wang approach
-#### Summary
+### First Project : Marshall, Argueta, and	Wang approach
+
 #### Repository structure
+- FirstProject_explanation: Ipython notebook that explains all the steps used.
+ 
+- NetworkModel : is simply a class that allow us to train and test the network with respect of certain parameters.
 
-### Li, Qin, Ren, and Liu approach
-#### Summary
+- FirstProjet_stats: another Ipython Notebook in wich we use the NetworkModel class to run several tests.
+
+### Second Project : Li, Qin, Ren, and Liu approach
 #### Repository structure
-
-### Extract datasets for evaluation
-- Details
-
-### Compare the approaches with the baseline methods
-#### Repository Structure

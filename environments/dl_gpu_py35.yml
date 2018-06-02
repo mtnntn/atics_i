@@ -1,4 +1,4 @@
-name: py35
+name: dl_gpu_py35
 dependencies:
 - _license=1.1=py35_1
 - alabaster=0.7.7=py35_0
@@ -227,4 +227,3 @@ dependencies:
   - tensorboard==1.6.0
   - tensorflow==1.3.0
   - termcolor==1.1.0
-
